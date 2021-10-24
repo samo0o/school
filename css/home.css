@@ -1,0 +1,208 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+/*  body */
+
+body,html{
+  background:url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg)   fixed; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top:0;
+  right: 0;
+  bottom: 0;
+  left: 0;;
+  font-family: 'Play', sans-serif;
+}
+
+/* video */
+/*  logo  */
+
+.studen{
+  position: fixed;
+  border-radius: 50%;
+  width: 6cm;
+  right: 43%;
+  top: 30%;
+
+}
+
+.techer{
+  position: fixed;
+  border-radius: 50%;
+  width: 6cm;
+  height: 4cm;
+  right: 43%;
+  top: 50%;
+
+}
+
+/* Nav */
+.nav
+{ 
+  position: fixed;
+  right: 0;
+  left: 0;
+  font-family: Raleway;
+  text-align: center;
+  padding: .8em;
+    
+    
+}
+
+.nav a
+{
+    color:white;
+    text-decoration: none;
+    font: 1.5em Raleway;
+    margin: .1em .3em;
+    padding: .5em ;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+div.nav a:before, div.nav a:after
+{
+    position: absolute;
+    opacity: 0.4;
+    height: 100%;
+    width: .1em;
+    content: '';
+    background:white;
+    transition: all 0.3s;
+}
+
+.n a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+.n a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+.n a:hover:before,.n a:hover:after
+{
+    opacity: 1;
+    height: .2em;
+    width: 100%;
+}
+.n a:before,.n a:after
+{
+    position: absolute;
+    opacity: 0.1;
+    width: 0%;
+    height: .1em;
+    content: '';
+    background: white;
+    transition: all 0.3s;
+}
+
+.n a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+.n a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+.n a:hover:before,.n a:hover:after
+{
+    opacity: 1;
+    width: 100%;
+}
+/* icon bar */
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: .7em;
+    margin: .2em;
+    border-radius: .8em;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 1.4em;
+  }
+  
+  .icon-bar a:hover {
+    background-color: white;
+    
+  }
+  
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .icon-bar .facebook:hover {
+    color: #3B5998;
+  }
+  
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .icon-bar .twitter:hover {
+    color: #3B5998;
+  }
+  
+  .google {
+    background: #dd4b39;
+    color: white;
+  }
+  .icon-bar .google:hover {
+    color: #dd4b39;
+  }
+  
+  .linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .icon-bar .linkedin:hover {
+    color: #007bb5;
+  }
+  
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .icon-bar .youtube:hover {
+    color: #bb0000;
+  }
+  
+  .content {
+    margin-left: 1vh;
+    font-size: 2vh;
+  }
+  
+  /* footer */
+  
+#sticky {
+  width:100%;
+  padding:20px;
+  padding-bottom:16px;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  position:fixed;   
+  bottom:0;         
+  left:0;
+  background-image:url(http://rs257.pbsrc.com/albums/hh234/tfm448/Snow411.gif~c200);
+}
